@@ -1,0 +1,48 @@
+/* Typographie */
+@import url("fonts/ZXX/zxx.css");
+@import url("fonts/Plex/css/ibm-plex.css");
+
+body {
+  font-family: "IBM Plex Sans";
+  font-weight: 300;
+}
+
+h1 {
+  font-family: "zxx";
+}
+
+h2,
+h3,
+h4,
+h5,
+h6,
+figcaption {
+  font-family: "IBM Plex Mono";
+  font-weight: 400;
+}
+
+/* Font size */
+
+h1 {
+  font-size: 8rem;
+}
+h2 {
+  font-size: 4rem;
+}
+h3 {
+  font-size: 2rem;
+}
+
+/* Microtypo */
+p {
+  letter-spacing: 0.001em;
+  line-height: 1.33;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1em;
+}
