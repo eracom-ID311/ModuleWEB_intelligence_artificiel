@@ -46,3 +46,48 @@ h5,
 h6 {
   line-height: 1em;
 }
+
+/*header*/
+body {
+  margin: 0;
+}
+header {
+  min-height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+header .logo {
+  width: 60%;
+  margin-top: 8rem;
+}
+header .intro {
+  width: 60%;
+}
+header .intro h2 {
+  font-size: 2vw;
+}
+header nav {
+  background-color: rgba(0, 0, 0, 0.5);
+  min-height: 4rem;
+  width: 100%;
+}
+
+/*deco*/
+header {
+  position: relative;
+}
+header .deco {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.deco .r1 {
+  width: 50%;
+}
