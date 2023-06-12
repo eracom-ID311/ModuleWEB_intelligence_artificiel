@@ -28,6 +28,9 @@ h1 {
 }
 h2 {
   font-size: 4rem;
+  margin-top: 5rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
 }
 h3 {
   font-size: 2rem;
@@ -60,14 +63,14 @@ header {
   align-items: center;
 }
 header .logo {
-  width: 60%;
-  margin-top: 8rem;
+  width: 30%;
+  margin-top: 15rem;
 }
 header .intro {
   width: 60%;
 }
 header .intro h2 {
-  font-size: 2vw;
+  font-size: 1.75vw;
 }
 header nav {
   background-color: rgba(0, 0, 0, 0.5);
@@ -80,17 +83,47 @@ header {
   position: relative;
 }
 header .deco {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
-  z-index: -1;
+  height: 100vh;
+  z-index: 1;
+}
+.deco .r1,
+.deco .r2,
+.deco .r3,
+.deco .r4,
+.deco .r5,
+.deco .r6 {
+  position: absolute;
 }
 
 .deco .r1 {
-  width: 50%;
+  width: 40%;
 }
 .deco .r2 {
   width: 50%;
+  left: 25%;
+  /* border: 1px solid yellow; */
+}
+.deco .r3 {
+  width: 25%;
+  right: 0%;
+  /* border: 1px solid green; */
+}
+.deco .r4 {
+  width: 15%;
+  right: 0%;
+  top: 25%;
+}
+.deco .r5 {
+  width: 20%;
+  right: 0%;
+  bottom: 0%;
+}
+.deco .r6 {
+  width: 20%;
+  left: 0%;
+  bottom: 0%;
 }
